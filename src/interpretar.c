@@ -21,7 +21,7 @@ void interpretar(int n, char **vetor){
       //printf("Chama a função c\n");
       criar(n,vetor);
   else if(strcmp(vetor[1], "-inserir") == 0 ||strcmp(vetor[1], "-i") == 0)
-    if(n < 7)
+    if(n < 3)
       // printf("Chamar a função HELP para inserir\n");
       help(7);
     else
