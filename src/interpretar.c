@@ -135,7 +135,5 @@ void interpretar(int n, char **vetor){
         printf("Chama a função -dcp\n");
     else if(strcmp(vetor[1], "-help") == 0 ||strcmp(vetor[1], "-h") == 0)
       help(0);
-    else
-     help(0); 
 }
 
